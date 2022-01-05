@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDB3B3"
+    android:orientation="vertical"
+    tools:context=".VerDatosDelProducto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".9"
+        android:background="#BDB3B3"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Ingreso_De_Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#323232"
+            android:ems="10"
+            android:hint="Nombre del producto"
+            android:inputType="text"
+            android:labelFor="@+id/viewNombre"
+            android:textAlignment="center"
+            android:textColor="#323232"
+            android:textColorHint="#7D7D7D"
+            android:textSize="20sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/Ingreso_De_Categoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#323232"
+            android:ems="10"
+            android:hint="Categoria"
+            android:inputType="text"
+            android:labelFor="@+id/viewTelefono"
+            android:textAlignment="center"
+            android:textColor="#323232"
+            android:textColorHint="#7D7D7D"
+            android:textSize="20sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/Ingreso_De_Precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#323232"
+            android:ems="10"
+            android:hint="Precio"
+            android:inputType="number"
+            android:labelFor="@+id/viewCorreo"
+            android:textAlignment="center"
+            android:textColor="#323232"
+            android:textColorHint="#7D7D7D"
+            android:textSize="20sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/Guardar_Cambios"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#684C4C"
+            android:text="Guardar cambios"
+            android:textColor="#E6E6E6"
+            android:textSize="20sp"
+            app:rippleColor="#684C4C" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/Eliminar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center|top"
+                android:backgroundTint="#684C4C"
+                android:clickable="true"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/delete"
+                app:backgroundTint="#684C4C"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/Editar_Cambios"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center|top"
+                android:backgroundTint="#684C4C"
+                android:clickable="true"
+                android:padding="22dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pencil"
+                app:backgroundTint="#684C4C"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
