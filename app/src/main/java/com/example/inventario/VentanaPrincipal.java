@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 
-import com.example.inventario.db.DbHelper;
+import com.example.inventario.database.DbHelper;
 
 public class VentanaPrincipal extends AppCompatActivity {
 
@@ -22,7 +22,7 @@ public class VentanaPrincipal extends AppCompatActivity {
     public void IrAAgregarProducto(View view) {
 
         DbHelper dbHelper = new DbHelper(VentanaPrincipal.this);
-        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        SQLiteDatabase database = dbHelper.getWritableDatabase();
 
         Intent irALaSiguienteActivity = new Intent(VentanaPrincipal.this, AgregarProducto.class);
         startActivity(irALaSiguienteActivity);

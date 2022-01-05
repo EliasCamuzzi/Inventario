@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.inventario.db.DbProductos;
+import com.example.inventario.database.DbProductos;
 import com.example.inventario.entidades.Productos;
 
 public class EditarActivity extends AppCompatActivity {

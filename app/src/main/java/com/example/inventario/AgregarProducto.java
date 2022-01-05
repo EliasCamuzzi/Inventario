@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.inventario.db.DbProductos;
+import com.example.inventario.database.DbProductos;
 
 public class AgregarProducto extends AppCompatActivity {
 

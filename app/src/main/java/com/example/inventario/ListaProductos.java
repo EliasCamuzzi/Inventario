@@ -7,8 +7,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.SearchView;
 
-import com.example.inventario.adaptadores.ListaProductosAdapter;
-import com.example.inventario.db.DbProductos;
+import com.example.inventario.adapters.ListaProductosAdapter;
+import com.example.inventario.database.DbProductos;
 import com.example.inventario.entidades.Productos;
 
 import java.util.ArrayList;

@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
-import com.example.inventario.db.DbProductos;
+import com.example.inventario.database.DbProductos;
 import com.example.inventario.entidades.Productos;
 
 public class VerDatosDelProducto extends AppCompatActivity {
